@@ -11,13 +11,13 @@ const Contact = () => {
         <a
           target="_blank"
           rel="noreferrer"
-          href="https://github.com/sirawit75"
+          href="https://www.linkedin.com/in/sirawit-nakyam-348988274/"
           className="hover:scale-105 p-6 ease-in duration-300 rounded-full shadow-lg shadow-gray-400 cursor-pointer"
         >
           <FaLinkedin />
         </a>
         <a
-          href="linkedin.com/in/sirawit-nakyam-348988274"
+          href="https://github.com/sirawit75"
           target="_blank"
           rel="noreferrer"
           className="hover:scale-105 p-6 ease-in duration-300 rounded-full shadow-lg shadow-gray-400 cursor-pointer"
