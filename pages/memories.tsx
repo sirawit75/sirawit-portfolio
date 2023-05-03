@@ -7,6 +7,7 @@ import d from "../public/assets/projects/memories/2.2.png";
 import e from "../public/assets/projects/memories/2.png";
 import f from "../public/assets/projects/memories/3.png";
 import { RiRadioButtonFill } from "react-icons/ri";
+import { HiOutlineExternalLink } from "react-icons/hi";
 import Link from "next/link";
 
 const memories = () => {
@@ -98,8 +99,12 @@ const memories = () => {
             href="https://github.com/sirawit75/memories"
             target="_blank"
             rel="noreferrer"
+            className="hover:underline text-white"
           >
-            <button className="px-8 py-2 mt-4 mr-8">Code</button>
+            <button className="px-8 py-2 mt-4 mr-8 flex items-center gap-2 ">
+              Code
+              <HiOutlineExternalLink size={18} className="mb-[0.5px]" />
+            </button>
           </a>
           {/* <a
             href="https://memories-finder-development.web.app/"

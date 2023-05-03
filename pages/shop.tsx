@@ -8,6 +8,7 @@ import d from "../public/assets/projects/shop/d.png";
 import e from "../public/assets/projects/shop/e.png";
 import o from "../public/assets/projects/shop/o.png";
 import { RiRadioButtonFill } from "react-icons/ri";
+import { HiOutlineExternalLink } from "react-icons/hi";
 import Link from "next/link";
 
 const shop = () => {
@@ -123,20 +124,29 @@ const shop = () => {
             />
           </div>
           <br />
-          <a
-            href="https://github.com/sirawit75/sirawit_shop"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <button className="px-8 py-2 mt-4 mr-8">Code</button>
-          </a>
-          <a
-            href="https://shop-52e94.web.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <button className="px-8 py-2 mt-4">Demo</button>
-          </a>
+          <div className="flex">
+            <a
+              href="https://github.com/sirawit75/sirawit_shop"
+              target="_blank"
+              rel="noreferrer"
+              className="text-white hover:underline"
+            >
+              <button className="px-8 py-2 mt-4 mr-8 flex items-center gap-2">
+                Code
+                <HiOutlineExternalLink size={18} className="mb-[0.5px]" />
+              </button>
+            </a>
+            <a
+              href="https://shop-52e94.web.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className="px-8 py-2 mt-4 mr-8 flex items-center gap-2">
+                Demo
+                <HiOutlineExternalLink size={18} className="mb-[0.5px]" />
+              </button>
+            </a>
+          </div>
         </div>
         <div className="md:h-[500px] col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
           <div className="p-2">
