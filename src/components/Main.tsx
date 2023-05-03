@@ -10,8 +10,8 @@ const Main = () => {
 
   useEffect(() => {
     const text = [
-      "HAVE A GOOD DAY! ",
       "NICE TO MEET YOU:D ",
+      "HAVE A GOOD DAY! ",
       "WAKE UP!, WAKE UP!, WAKE UP! ",
       "WON'T YOU GIVE YOURSELF A TRY? ",
     ];

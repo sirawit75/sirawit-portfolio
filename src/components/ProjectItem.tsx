@@ -14,7 +14,7 @@ const ProjectItem = ({ img, title, url }: props) => {
     <div className="flex flex-col">
       <Link
         href={url}
-        className="mb-2  font-bold text-xl text-gray-500 ml-2 underline flex items-center mr-2"
+        className="mb-2 w-fit font-bold text-xl text-gray-500 ml-2 underline flex items-center mr-2"
       >
         <p>{title}</p>
         <HiOutlineExternalLink size={14} />
