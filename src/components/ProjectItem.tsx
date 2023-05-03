@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { HiOutlineExternalLink } from "react-icons/hi";
 
 interface props {
   img: any;
@@ -11,9 +12,15 @@ interface props {
 const ProjectItem = ({ img, title, url }: props) => {
   return (
     <div className="flex flex-col">
-      <p className="mb-2 font-bold text-xl text-gray-500 ml-2">{title}</p>
+      <Link
+        href={url}
+        className="mb-2  font-bold text-xl text-gray-500 ml-2 underline flex items-center mr-2"
+      >
+        <p>{title}</p>
+        <HiOutlineExternalLink size={14} />
+      </Link>
       {/* <br /> */}
-      <div className="relative flex justify-center items-center p-4 h-[350px] w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#5651e4] to-[#709dff]">
+      <div className="relative border-2 flex justify-center items-center p-4 h-[350px] w-full shadow-xl shadow-gray-400 rounded-2xl group hover:bg-gradient-to-r from-[#5651e4] to-[#709dff]">
         <Image
           alt="/"
           className="rounded-xl group-hover:opacity-10  w-full h-full object-cover"

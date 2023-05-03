@@ -10,10 +10,10 @@ const Main = () => {
 
   useEffect(() => {
     const text = [
-      "HAVE A GOOD DAY:D ",
-      "YOU LOOK SO COOL ",
+      "HAVE A GOOD DAY! ",
+      "NICE TO MEET YOU:D ",
       "WAKE UP!, WAKE UP!, WAKE UP! ",
-      "GIVE YOURSELF A TRY ",
+      "WON'T YOU GIVE YOURSELF A TRY? ",
     ];
     const typingInterval = setInterval(() => {
       if (displayText.length === text[currentText].length) {
