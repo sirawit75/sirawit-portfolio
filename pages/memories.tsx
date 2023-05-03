@@ -65,7 +65,7 @@ const memories = () => {
           </p>
           <br />
           <br />
-          <h2>Sceenshots</h2>
+          <h2>Screenshots</h2>
           <br />
           <div className="w-full  grid grid-cols-5 gap-8">
             <Image
