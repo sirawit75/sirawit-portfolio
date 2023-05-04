@@ -140,6 +140,7 @@ const shop = () => {
               href="https://shop-52e94.web.app/"
               target="_blank"
               rel="noreferrer"
+              className="text-white hover:underline"
             >
               <button className="px-8 py-2 mt-4 mr-8 flex items-center gap-2">
                 Demo
