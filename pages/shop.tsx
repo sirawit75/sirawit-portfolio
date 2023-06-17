@@ -136,17 +136,17 @@ const shop = () => {
                 <HiOutlineExternalLink size={18} className="mb-[0.5px]" />
               </button>
             </a>
-            <a
-              href="https://shop-52e94.web.app/"
-              target="_blank"
-              rel="noreferrer"
-              className="text-white hover:underline"
+            <div
+              // href="https://shop-52e94.web.app/"
+              // target="_blank"
+              // rel="noreferrer"
+              className="text-white"
             >
-              <button className="px-8 py-2 mt-4 mr-8 flex items-center gap-2">
+              <div className="px-8 py-2 mt-4 mr-8 flex items-center shadow-md rounded-lg gap-2 cursor-default bg-gray-400">
                 Demo
                 <HiOutlineExternalLink size={18} className="mb-[0.5px]" />
-              </button>
-            </a>
+              </div>
+            </div>
           </div>
         </div>
         <div className="md:h-[500px] col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
