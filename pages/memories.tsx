@@ -63,6 +63,7 @@ const memories = () => {
             and I promise to continue improving my skills and knowledge in the
             field of software development. Have a pleasant day, everyone! :D
           </p>
+          <p className="text-sm font-semibold text-gray-400">(Dec 13, 2022)</p>
           <br />
           <br />
           <h2>Screenshots</h2>

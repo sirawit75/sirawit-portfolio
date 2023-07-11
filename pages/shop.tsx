@@ -87,6 +87,7 @@ const shop = () => {
           Thank you to everyone who has taken the time to review my project, and
           I promise to continue improving my skills and knowledge in the field
           of software development. Have a pleasant day, everyone! :D
+          <p className="text-sm font-semibold text-gray-400">(May 1, 2023)</p>
           <br />
           <br />
           <h2>Screenshots</h2>
