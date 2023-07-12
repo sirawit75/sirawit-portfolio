@@ -42,7 +42,7 @@ const Main = () => {
             Hi There, I&apos;m
             <span className="text-[#5651e4]"> Boss</span>
           </h1>
-          <h2 className="  text-gray-700">Web Developer</h2>
+          <h2 className="  text-gray-700">Software Developer</h2>
           <h3 className="py-4  text-gray-700">
             Welcome To <p>My Personal Portfolio</p>
           </h3>
